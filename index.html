@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idealtech</title>
+    <link rel="icon" href="assets/img/icon.png" type="image/png">
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.png" alt="idealtech Logo" id="logo-image">
+            </a>
+            
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <button id="theme-switcher" class="theme-switcher" aria-label="Alterar Tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">Soluções Digitais para o seu Negócio</h1>
+                <p class="hero-description">Oferecemos as melhores soluções em tecnologia para impulsionar sua empresa no mercado digital. Inovação, qualidade e resultados.</p>
+                <a href="#servicos" class="cta-button" aria-label="Saiba Mais sobre nossos serviços">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Nossos Projetos</h2>
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <div class="slide">
+                            <img src="assets/img/slide1.png" alt="Projeto 1: Desenvolvimento Web">
+                            <div class="slide-caption">Desenvolvimento Web</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/slide2.png" alt="Projeto 2: Aplicativos Mobile">
+                            <div class="slide-caption">Aplicativos Mobile</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/slide3.jpg" alt="Projeto 3: UI/UX Design">
+                            <div class="slide-caption">UI/UX Design</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/slide4.png" alt="Projeto 4: E-commerce">
+                            <div class="slide-caption">E-commerce</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/slide5.jpg" alt="Projeto 5: Cloud Computing">
+                            <div class="slide-caption">Computação em Nuvem</div>
+                        </div>
+                    </div>
+                    <button class="slider-control prev" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-control next" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-code service-icon"></i>
+                        <h3 class="service-title">Desenvolvimento Web</h3>
+                        <p>Criamos sites e aplicações web modernas, responsivas e de alta performance.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-mobile-alt service-icon"></i>
+                        <h3 class="service-title">Aplicativos Mobile</h3>
+                        <p>Desenvolvemos aplicativos nativos e híbridos para iOS e Android.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-paint-brush service-icon"></i>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p>Criamos interfaces intuitivas e experiências de usuário memoráveis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <address class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span class="info-text">Av. dos Ipês, 0000 - Teresina, PI</span>
+                        </address>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span class="info-text">(86) 9999-9999</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span class="info-text">contato@idealtech.com.br</span>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Seu nome" required>
+                        <input type="email" name="email" placeholder="Seu e-mail" required>
+                        <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="cta-button contact-submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; 2025 Grupo Idealnet. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://web.whatsapp.com/" class="social-icon" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/modules/menuToggle.js"></script>
+    <script type="module" src="assets/js/modules/slider.js"></script>
+    <script type="module" src="assets/js/modules/themeSwitcher.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
